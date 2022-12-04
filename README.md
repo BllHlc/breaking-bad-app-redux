@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Breaking Bad App [See it live](https://breaking-bad-app-redux.vercel.app/) ↗
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This using React, Redux, React Router, Axios, React Bootstrap and Breaking Bad API. This is a simple app that shows the characters of the series Breaking Bad. You can see character by name and see the details of the character. You can also see the quotes of the character.
 
-## Available Scripts
+### Dependencies
 
-In the project directory, you can run:
+What things you need to install the software and how to install them
 
-### `npm start`
+- React Router
+- React-Redux
+- Redux Toolkit
+- React Bootstrap
+- Axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Home Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Home Page](https://user-images.githubusercontent.com/77120913/205522881-beed7c90-10b0-4d3f-bc9f-4767cb76844e.jpg)
 
-### `npm test`
+# Endless Pagination
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Endless Pagination](https://user-images.githubusercontent.com/77120913/205522269-f2e750d5-23b4-414f-8739-61a6f1c0d995.png)
 
-### `npm run build`
+# Character Details
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Character Details](https://user-images.githubusercontent.com/77120913/205522267-be68ace0-0adc-4fb8-8b36-727942fc3d5b.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Quotes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Quotes](https://user-images.githubusercontent.com/77120913/205522263-08f10b83-cfba-4263-9fd0-f9349b1661ce.png)
 
-### `npm run eject`
+# Quote Details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Quote Details](https://user-images.githubusercontent.com/77120913/205522258-696499c7-51f9-4ef3-9d14-1cc0fea31fe4.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Bilal Halıcı**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE.md](./todo-app-redux/clients/LICENSE) file for details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Bilal Halıcı - [linkedin](https://www.linkedin.com/in/bilal-halici/)
