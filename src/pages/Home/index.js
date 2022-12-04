@@ -1,10 +1,12 @@
+import './styles.css';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchCharacters } from '../../redux/characters/charactersSlice';
+import { fetchCharacters } from '../../redux/charactersSlice';
 import Masonry from 'react-masonry-css';
-import './styles.css';
 import Loading from '../../components/Loading';
 import Error from '../../components/Error';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -29,7 +31,7 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <div className='m-4'>
       <Masonry
         breakpointCols={4}
         className="my-masonry-grid"
@@ -37,9 +39,13 @@ const Home = () => {
         {
           characters.map(character => (
             <div key={character.char_id}>
-              <Link to={`/char/${character.char_id}`}>
-                <img src={character.img} alt={character.name} className="charImg" />
-                <div className='charName'>{character.name}</div>
+              <Link to={`/char/${character.char_id}`} className='text-decoration-none text-light' >
+                <Card bg='dark' >
+                  <Card.Img variant="top" src={character.img} />
+                  <Card.Body>
+                    <Card.Title className='text-decoration-none'>{character.name}</Card.Title>
+                  </Card.Body>
+                </Card>
               </Link>
             </div>
           ))
@@ -48,7 +54,7 @@ const Home = () => {
 
       <div style={{ padding: "20px 0 40px 0", textAlign: "center" }}>
         {status === "loading" && <Loading />}
-        {hasNextPage && status !== "loading" && <button onClick={() => dispatch(fetchCharacters(nextPage))}>Load More ({nextPage})</button>}
+        {hasNextPage && status !== "loading" && <Button variant='outline-success' onClick={() => dispatch(fetchCharacters(nextPage))}>Load More ({nextPage})</Button>}
         {!hasNextPage && <div>There is noting to be shown</div>}
       </div>
     </div>
